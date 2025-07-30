@@ -4,7 +4,7 @@ export default function CryptoList({ cryptoData, selectedCrypto, setSelectedCryp
   return (
     <>
       <h2 className="text-2xl font-semibold mb-4">Top Cryptocurrencies</h2>
-      <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+      <div className="space-y-4 max-h-[1000px] overflow-y-auto pr-2">
         {cryptoData.map((crypto) => (
           <div 
             key={crypto.id}

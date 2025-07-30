@@ -42,7 +42,7 @@ export default function ChatInterface({ cryptoData, selectedCrypto, setSelectedC
 
   return (
     <div>
-      <div className="bg-gray-700 rounded-lg p-4 mb-4 max-h-60 overflow-y-auto">
+      <div className="bg-gray-700 rounded-lg p-4 mb-4 max-h-600 overflow-y-auto">
         {conversation.length > 0 ? (
           conversation.map((msg, index) => (
             <div 
